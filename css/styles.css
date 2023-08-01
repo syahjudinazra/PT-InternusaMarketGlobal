@@ -207,6 +207,13 @@
   margin-left: 85px;
 }
 
+.section-about a {
+  text-decoration: none;
+  color: #000000;
+  padding: 0 10px;
+  box-shadow: inset 0 -0.6em 0 0 #ffa500;
+}
+
 .section-about img {
   height: 24rem;
 }
@@ -215,6 +222,13 @@
 /*Section About2 */
 .section-about2 {
   display: flex;
+}
+
+.section-about2 a {
+  text-decoration: none;
+  color: #000000;
+  padding: 0 10px;
+  box-shadow: inset 0 -0.6em 0 0 #ffa500;
 }
 
 .section-about2 img {
@@ -226,3 +240,81 @@
   margin-left: 85px;
 }
 /*End Section About2 */
+
+/*Section Icon */
+.icon1 {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+
+.iconwater {
+  border-radius: 100px;
+  background: #53aded;
+  height: 4rem;
+  width: 4rem;
+  text-align: center;
+  margin-right: 25px;
+}
+
+.iconwater i {
+  padding: 31px 0;
+  color: #ffffff;
+}
+
+.iconlistrik {
+  border-radius: 100px;
+  background: #ffa500;
+  height: 4rem;
+  width: 4rem;
+  text-align: center;
+  margin-right: 25px;
+}
+
+.iconlistrik i {
+  padding: 31px 0;
+  color: #ffffff;
+}
+
+.icongas {
+  border-radius: 100px;
+  background: #ff7f00;
+  height: 4rem;
+  width: 4rem;
+  text-align: center;
+  margin-right: 25px;
+}
+
+.icongas i {
+  padding: 31px 0;
+  color: #ffffff;
+}
+
+.iconshopping {
+  border-radius: 100px;
+  background: #ffc0cb;
+  height: 4rem;
+  width: 4rem;
+  text-align: center;
+  margin-right: 25px;
+}
+
+.iconshopping i {
+  padding: 31px 0;
+  color: #ffffff;
+}
+
+.iconphone {
+  border-radius: 100px;
+  background: #000080;
+  height: 4rem;
+  width: 4rem;
+  text-align: center;
+  margin-right: 25px;
+}
+
+.iconphone i {
+  padding: 31px 0;
+  color: #ffffff;
+}
+/*Section Icon */
