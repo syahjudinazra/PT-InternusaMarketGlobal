@@ -1,5 +1,9 @@
 @import url(https://fonts.googleapis.com/css?family=Varela+Round);
 
+body {
+  overflow-x: hidden;
+}
+
 .button_container {
   position: fixed;
   top: 5%;
@@ -137,7 +141,6 @@
 /*Section Utama */
 .headsection {
   display: flex;
-  height: 90vh;
 }
 
 .logocontent {
@@ -147,35 +150,54 @@
   margin-left: 40px;
 }
 
-.text-head {
+.logocontent img {
+  height: 119px;
+  width: 170px;
+  margin-left: -15px;
+}
+
+.text-head h1 {
   color: #a5e1e2;
-  font-weight: 700;
+  font-size: 60px;
 }
 
 .headcontent {
   text-align: left;
   background-color: #ff0000;
   border-radius: 20px 0px 0px 20px;
+  height: 49rem;
 }
 
 .headcontent img {
-  position: absolute;
-  margin: -148px;
-  top: 208px;
-  height: 39rem;
+  margin: 48px 0px 0px -159px;
+  height: 42rem;
+  float: left;
 }
 
 .text-head2 {
-  color: #ffffff;
   margin: auto;
-  width: 50%;
+  width: 100%;
   padding: 10px;
-  margin-top: 220px;
+  margin-top: 160px;
+  margin-left: 210px;
 }
 
 .text-head2 h1 {
+  color: #ffffff;
   font-weight: 700;
   text-shadow: 0px 4px #000000;
+  font-family: "Bebas Neue";
+  font-size: 6rem;
+  line-height: 100px;
+}
+
+.text-head2 ul li {
+  color: #ffffff;
+  font-size: 23px;
+}
+
+.text-head2 a {
+  margin-left: 10px;
 }
 /*End Section Utama */
 
@@ -201,9 +223,12 @@
 /*Section About */
 .section-about {
   display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: center;
 }
 
-.section-about .about1 {
+.section-about .about {
   margin-left: 85px;
 }
 
@@ -222,6 +247,8 @@
 /*Section About2 */
 .section-about2 {
   display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
 }
 
 .section-about2 a {
@@ -236,16 +263,27 @@
   border-radius: 20px;
 }
 
-.section-about2 .about4 {
+.section-about2 .about3 {
   margin-left: 85px;
 }
 /*End Section About2 */
 
 /*Section Icon */
+.partner {
+  background: #a5e1e2;
+  height: 33rem;
+  content-visibility: auto;
+}
+
 .icon1 {
   display: flex;
+  justify-content: space-evenly;
   flex-wrap: nowrap;
-  justify-content: center;
+}
+
+.iconwater i {
+  padding: 31px 0;
+  color: #ffffff;
 }
 
 .iconwater {
@@ -254,12 +292,6 @@
   height: 4rem;
   width: 4rem;
   text-align: center;
-  margin-right: 25px;
-}
-
-.iconwater i {
-  padding: 31px 0;
-  color: #ffffff;
 }
 
 .iconlistrik {
@@ -268,7 +300,6 @@
   height: 4rem;
   width: 4rem;
   text-align: center;
-  margin-right: 25px;
 }
 
 .iconlistrik i {
@@ -282,7 +313,6 @@
   height: 4rem;
   width: 4rem;
   text-align: center;
-  margin-right: 25px;
 }
 
 .icongas i {
@@ -296,7 +326,6 @@
   height: 4rem;
   width: 4rem;
   text-align: center;
-  margin-right: 25px;
 }
 
 .iconshopping i {
@@ -310,11 +339,37 @@
   height: 4rem;
   width: 4rem;
   text-align: center;
-  margin-right: 25px;
 }
 
 .iconphone i {
   padding: 31px 0;
   color: #ffffff;
 }
-/*Section Icon */
+/*Section Icon2 */
+.icon2 {
+  display: flex;
+  flex-wrap: nowrap;
+  margin: 67px 67px 0px 67px;
+  justify-content: space-evenly;
+}
+
+/*End Section Icon2 */
+
+.market-button {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+.market-button a {
+  color: #ffffff;
+}
+
+/* Download App */
+
+.downloadapp {
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+}
