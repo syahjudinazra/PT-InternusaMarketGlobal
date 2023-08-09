@@ -171,14 +171,11 @@ body {
 .headcontent img {
   margin: 48px 0px 0px -159px;
   height: 42rem;
-  float: left;
 }
 
 .text-head2 {
-  margin: auto;
-  width: 100%;
   padding: 10px;
-  margin-top: 160px;
+  margin-top: -515px;
   margin-left: 210px;
 }
 
@@ -270,7 +267,7 @@ body {
 
 /*Section Icon */
 .partner {
-  background: #a5e1e2;
+  background: #e3f3f3;
   height: 33rem;
   content-visibility: auto;
 }
@@ -353,6 +350,58 @@ body {
   justify-content: space-evenly;
 }
 
+.iconcredit {
+  border-radius: 100px;
+  background: #068a63;
+  height: 4rem;
+  width: 4rem;
+  text-align: center;
+}
+
+.iconcredit i {
+  padding: 31px 0;
+  color: #ffffff;
+}
+
+.iconinsurance {
+  border-radius: 100px;
+  background: #068a63;
+  height: 4rem;
+  width: 4rem;
+  text-align: center;
+}
+
+.iconinsurance i {
+  padding: 31px 0;
+  color: #ffffff;
+}
+
+.iconmontage {
+  border-radius: 100px;
+  background: #5260f4;
+  height: 4rem;
+  width: 4rem;
+  text-align: center;
+}
+
+.iconmontage i {
+  padding: 31px 0;
+  color: #ffffff;
+}
+
+.iconbills {
+  border-radius: 100px;
+  background: #4e5371;
+  height: 4rem;
+  width: 4rem;
+  text-align: center;
+}
+
+.iconbills i {
+  padding: 31px 0;
+  color: #ffffff;
+}
+
 /*End Section Icon2 */
 
 .market-button {
@@ -363,6 +412,12 @@ body {
 
 .market-button a {
   color: #ffffff;
+  background: #ff6347;
+}
+
+.market-button a:hover {
+  background: #ff6347;
+  color: #ffffff;
 }
 
 /* Download App */
@@ -372,4 +427,157 @@ body {
   align-items: center;
   flex-wrap: nowrap;
   justify-content: space-evenly;
+}
+
+.buttondownload {
+  display: flex;
+  flex-direction: column;
+  margin-left: 15px;
+}
+
+.buttondownload a {
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.buttondownload i {
+  font-size: 30px;
+}
+
+.barcode img {
+  height: 134px;
+  width: 134px;
+}
+
+.downloadhandphone {
+  display: flex;
+  justify-content: center;
+  margin-top: 45px;
+}
+
+.downloadhandphone img {
+  height: 35rem;
+  width: 18rem;
+  box-shadow: 8px 4px #ff6347;
+}
+
+/*Footer */
+.footer {
+  background: #c7e6e8;
+}
+
+.head-footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.text-footer h1 {
+  color: #ffffff;
+  background: #000000;
+  width: fit-content;
+}
+
+.text-footer h2 {
+  color: #ffffff;
+  background: #000000;
+  width: fit-content;
+}
+
+.menu-footer a {
+  color: #000000;
+  text-decoration: none;
+  font-weight: 600;
+  margin-right: 15px;
+}
+
+.copyright {
+  display: flex;
+  align-items: flex-end;
+}
+
+.content-footer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.social-media {
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.instagram {
+  background: #000000;
+  border-radius: 25px;
+  height: 3rem;
+  width: 3rem;
+  margin-right: 10px;
+}
+
+.instagram i {
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+  margin-top: 8px;
+}
+
+.facebook {
+  background: #000000;
+  border-radius: 25px;
+  height: 3rem;
+  width: 3rem;
+  margin-right: 10px;
+}
+
+.facebook i {
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+  margin-top: 8px;
+}
+
+.twitter {
+  background: #000000;
+  border-radius: 25px;
+  height: 3rem;
+  width: 3rem;
+  margin-right: 10px;
+}
+
+.twitter i {
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+  margin-top: 8px;
+}
+
+.whatsapp {
+  background: #000000;
+  border-radius: 25px;
+  height: 3rem;
+  width: 3rem;
+  margin-right: 10px;
+}
+
+.whatsapp i {
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+  margin-top: 8px;
+}
+/*End Footer */
+
+/*RESPONSIVE */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .headcontent img {
+    height: 39rem;
+    width: 19rem;
+    margin-left: -143px;
+  }
 }
